@@ -1,0 +1,157 @@
+
+.basket-container2{
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+.basket-container2 .header2 h1{
+    text-align: center;
+    background-color: rgb(10, 137, 255);
+    color:aliceblue;
+    padding:0.8rem;
+    font-size: 1.4rem;
+  
+} 
+
+.header .header-text a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.basket-items-container{
+    display:inline-block;
+    margin:auto;
+  
+}
+
+
+.basket-item-container{
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    width:100%;
+    margin-bottom: 1rem;
+  
+}
+
+.basket-item-img{
+    display:flex;
+    border: 2px solid rgb(230, 11, 11);
+    flex:2;
+    width:10%
+}
+
+.item-name{ grid-area : item-name; }
+
+.remove-btn{ grid-area : remove-btn; }
+
+
+.item-name-and-remove-btn-container{
+
+    border: 1px solid black;
+    display: grid;
+
+    grid-template-areas: 
+    
+    'item-name'
+    'remove-btn';
+
+    flex:2;
+
+}
+
+.item-name{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    height:120px;
+    
+}
+
+.remove-btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    text-decoration: underline;
+    color:rgb(6, 90, 168);
+    font-weight: bold;
+    margin:auto;
+    height:30px;
+
+}
+
+.price{
+    display:flex;
+    border: 1px solid black;
+    flex:1;
+    margin:auto;
+    font-size:1.3rem;
+    justify-content: center;
+
+}
+
+.quantity-container{
+    margin:auto;
+    display:flex;
+    border: 1px solid rgb(179, 60, 60);
+    flex:2;
+    font-size:1.3rem;
+    display: inline-flex;
+
+}
+
+.minus-btn{
+    margin:auto;
+    background-color: rgb(151, 182, 211);
+    border: 1px solid black;
+    flex:1;
+}
+
+.quantity{
+    margin:auto;
+    border: 1px solid rgb(0, 46, 11);
+    flex:2;
+}
+
+.addition-btn{
+    margin:auto;
+    background-color: rgb(151, 182, 211);
+
+    border: 1px solid black;
+    flex:1;
+}
+
+.total{
+    margin:auto;
+    font-size:1.3rem;
+    border: 1px solid black;
+   flex:1;
+}
+
+
+/* basket total */
+
+.basket-total-container{
+    display:flex;
+    border: 1px solid black;
+}
+
+.empty-container2{
+    border: 1px solid black;
+    flex:7;
+}
+
+.basket-total-text{
+    border: 1px solid black;
+    flex:1;
+}
+
+.basket-total{
+    border: 1px solid black;
+    flex:1;
+}
